@@ -158,3 +158,72 @@ li{
     padding: 70px 0px 70px 0px;
 }
 
+/* Hollyday Type Section CSS */
+.sectionHollydayType{
+    padding: 50px 100px 50px 100px;
+    background-image: linear-gradient(rgba(25, 93, 135, 0.595),rgba(25, 93, 135, 0.595)),url("./assets/bg-new-banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.holidayTypeSectionIconConatiner{
+    display: flex;
+    justify-content: space-between;
+}
+.iconBorderDiv i{
+    font-size: 50px;
+    color: white;
+}
+.iconWraper{
+    text-align: center;
+    width: fit-content;
+    margin: 10px;
+}
+.iconWraper:hover p , .iconWraper:hover .iconBorderDiv i{
+    color:  rgb(6, 188, 185) ;
+} 
+.iconWraper:hover .iconBorderDiv {
+    border:3px solid  rgb(6, 188, 185) ;
+} 
+.iconWraper p{
+    margin-top: 15px;
+    color: rgb(148, 147, 147);
+}
+.iconBorderDiv{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    border: 3px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.sectionHollydayType .offerSectuionTitle{
+    color: white
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
