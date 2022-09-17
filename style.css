@@ -1,0 +1,160 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+body{
+    overflow-x: hidden;
+}
+.mainHeder{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: blueviolet;
+    box-shadow: 0px 0px 8px 0px rgb(255, 18, 18);
+}
+.MainLogo img{
+    max-width: 100px;
+}
+li{
+    list-style-type: none;
+}
+.MainMenus{
+    display: flex;
+}
+.MainMenus li a{
+    color: white;
+    text-decoration: none;
+    margin: 8px;
+    
+}
+.MainMenus li a:hover{
+    color: red;
+}
+
+/* Home Section CSS */
+.homeSection{
+    height: 80vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.734),rgba(0, 0, 0, 0.768)), url(https://mishraas.github.io/images/header-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+
+}
+.homeContentDiv{
+    width: fit-content;
+    height: fit-content;
+    color: white;
+    text-align: center;
+}
+.homeContentDiv h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-family: 'Raleway', sans-serif;
+}
+.homeContentDiv p{
+    margin-bottom: 10px;
+    font-family: 'Raleway', sans-serif;
+}
+.myBtn{
+    border: 2px solid yellow;
+    padding: 10px 40px;
+    border-radius: 23px;
+}
+.myBtn:hover{
+    background-color: white;
+}
+.SearchSection{
+    padding: 25px 100px 25px 100px;
+    background-color: rgb(50, 50, 247);
+}
+.searchForm{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.searchForm div{
+    width: 32%;
+    color: white;
+}
+.SearchTitleDiv{
+    width: 15% !important;
+}
+.SearchButtonDiv{
+    width: 10% !important;
+}
+.SearchButtonDiv input{
+    background-color: rgb(6, 186, 186);
+}
+.searchForm div input{
+    padding: 8px;
+    width: 80%;
+}
+
+/* Offer Section CSS */
+.offerContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.offerDiv{
+    width: 19%;
+    margin: 5px;
+    transition: 0.4s linear;
+    -webkit-transition: 0.4s linear;
+    -moz-transition: 0.4s linear;
+    -ms-transition: 0.4s linear;
+    -o-transition: 0.4s linear;
+    
+}
+.offerImage {
+    width: 100%;
+}
+.offerImage img{
+    max-width: 100%;
+}
+.offerDetails{
+    padding: 10px;
+    background-color: rgba(128, 128, 128, 0.44);
+    display: flex;
+    align-items: center;
+    transition: 0.4s linear;
+    -webkit-transition: 0.4s linear;
+    -moz-transition: 0.4s linear;
+    -ms-transition: 0.4s linear;
+    -o-transition: 0.4s linear;
+}
+.offerDiv:hover{
+    box-shadow: 0px 0px 5px 5px rgb(5, 235, 189);
+    border: 5px solid rgb(25, 150, 157);
+}
+.offerDiv:hover .offerDetails{
+    background-color: rgb(40, 39, 39);
+    color: white;
+}
+.offerSectuionTitle{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.offerSectuionTitle h1{
+    text-transform: uppercase;
+}
+.offerSectuionTitle p{
+    color: gray;
+}
+.OfferSection{
+    padding: 70px 0px 70px 0px;
+}
+
